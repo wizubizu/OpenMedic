@@ -1,0 +1,454 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Open Medic</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/checkbox.css">
+	
+
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="">
+
+
+	<header>
+		<nav class="navbar bg-white p-t-10 m-b-0" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle bg-black" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand c-red w-900 f-40 mf-20"><span class="c-red">Open</span><span class="c-blue">Medic</span></a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<!-- <ul class="nav navbar-nav">
+						<li class="active"><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form> -->
+					<ul class="nav navbar-nav navbar-right mbg-bugger">
+						<li class="m-t-10"><a href="index.html">Home</a></li>
+						<li class="m-t-10"><a href="#">About</a></li>
+						<li class="m-t-10"><a href="#">Order for medicine(s)</a></li>
+						<li class="m-t-10"><a href="signin.html">Sign In</a></li>
+						<li><a href="signup.html"><button type="button" class="btn c-dark bd-brandr bg-white">Sign Up</button></a></li>
+						<!-- <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+
+		<div class=" bg-head">
+			<div class="p-t-15p p-b-25p">
+				<div class="row text-center">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<p class="f-40 mf-20 w-900 ">Easy access to essential medications</p>
+						<p class="f-40 mf-20 w-900 m-t-20">from a pharmacy around you</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row text-center m-t-7p">
+					<div class="col-md-1"></div>
+					<div class="col-md-8">
+						<form action="" method="POST" role="form">
+							
+							<div class="row">
+								<div class=" col-sm-1"></div>
+								<div class="col-md-4 col-sm-6">
+									<input type="search" name="" id="input" class="form-control h-50 width-280 mwidth-100p bd-brandr f-20" value="" required="required" title="" placeholder="&#128269; Enter Drug Name">
+								</div>
+								<div class="col-md-4 col-sm-5 mm-t-10">
+									<div class="form-group">
+										<input type="text" class="form-control h-50 width-280 mwidth-100p bd-brandr f-20" id="" placeholder="&#128205; Enter Location">
+									</div>
+								</div>
+								<div class="col-md-3">
+									<button type="button" class="btn c-white bg-red width-120 h-50 width-280 f-16 w-600" data-toggle="modal" href='#modal-id'>SEARCH</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- modal -->
+	<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header no-bd">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title text-center w-500">Results for <span class="c-blue">Clegicil</span> in Surulere, Lagos.</h4>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<div class="row">
+									<div class="col-md-3 col-sm-3"><img src="assets/img/rectangle.png" class="img-circle width-60 h-60"></div>
+									<div class="col-md-8"><p class="w-600">JayKay Pharmacies</p>
+									<p>Solid Clegicll two weeks ago</p></div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 p-l-0">
+								<div class="row m-t-30 mm-t-0">
+									<div class="col-md-4 col-xs-6 col-sm-3"><a href=""><span><img src="assets/img/phone-call.png"></span>
+									<span class="c-red w-600 m-l-10">Call</span></a></div>
+									<div class="col-md-6 p-l-0 mp-l-15"><a href=""><span><img src="assets/img/message.png"></span>
+									<span class="c-red w-600 m-l-10">Message</span></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="row m-t-20">
+							<div class="col-md-4 col-sm-6">
+								<div class="row">
+									<div class="col-md-3 col-sm-3"><img src="assets/img/rectangle.png" class="img-circle width-60 h-60"></div>
+									<div class="col-md-8"><p class="w-600">JayKay Pharmacies</p>
+									<p>Solid Clegicll two weeks ago</p></div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 p-l-0">
+								<div class="row m-t-30 mm-t-0">
+									<div class="col-md-4 col-xs-6 col-sm-3"><a href=""><span><img src="assets/img/phone-call.png"></span>
+									<span class="c-red w-600 m-l-10">Call</span></a></div>
+									<div class="col-md-6 p-l-0 mp-l-15"><a href=""><span><img src="assets/img/message.png"></span>
+									<span class="c-red w-600 m-l-10">Message</span></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="row m-t-20">
+							<div class="col-md-4 col-sm-6">
+								<div class="row">
+									<div class="col-md-3 col-sm-3"><img src="assets/img/rectangle.png" class="img-circle width-60 h-60"></div>
+									<div class="col-md-8"><p class="w-600">JayKay Pharmacies</p>
+									<p>Solid Clegicll two weeks ago</p></div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 p-l-0">
+								<div class="row m-t-30 mm-t-0">
+									<div class="col-md-4 col-xs-6 col-sm-3"><a href=""><span><img src="assets/img/phone-call.png"></span>
+									<span class="c-red w-600 m-l-10">Call</span></a></div>
+									<div class="col-md-6 p-l-0 mp-l-15"><a href=""><span><img src="assets/img/message.png"></span>
+									<span class="c-red w-600 m-l-10">Message</span></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="row m-t-20">
+							<div class="col-md-4 col-sm-6">
+								<div class="row">
+									<div class="col-md-3 col-sm-3"><img src="assets/img/rectangle.png" class="img-circle width-60 h-60"></div>
+									<div class="col-md-8"><p class="w-600">JayKay Pharmacies</p>
+									<p>Solid Clegicll two weeks ago</p></div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 p-l-0">
+								<div class="row m-t-30 mm-t-0">
+									<div class="col-md-4 col-xs-6 col-sm-3"><a href=""><span><img src="assets/img/phone-call.png"></span>
+									<span class="c-red w-600 m-l-10">Call</span></a></div>
+									<div class="col-md-6 p-l-0 mp-l-15"><a href=""><span><img src="assets/img/message.png"></span>
+									<span class="c-red w-600 m-l-10">Message</span></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer no-bd c-ta">
+					<button type="button" class="btn c-white bg-red width-165 mwidth-100p">View more results</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+
+	<section class="">
+		<div class="bg-head1">
+			<div class="container p-t-5p p-b-5p">
+				<div class="text-center">
+					<p class=" f-40 mf-20 w-600 ">Easy access to healthcare and medication</p>
+					<p class="f-40 mf-20 w-600 p-t-10">at your fingertips</p>
+					<p class="p-t-30">We've got you covered! Avoid the stress of looking for medication</p>
+					<p class="p-t-5">at verious pharmacies. With OpenMedic, all it takes is a click</p>
+					<p class="p-t-5">to make your search.</p>
+				</div>
+
+				<div class="row m-t-5p">
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<img src="assets/img/test.png" class="mwidth-40">
+						<p class="c-red f-20 mf-14 w-600 m-t-10">Find Medication</p>
+						<p>Search for prescribed medication online.<br>Be sure to enter your area for more<br>refined results</p>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<img src="assets/img/pharmacy.png" class="mwidth-40">
+						<p class="c-red f-20 mf-14 w-600 m-t-10">Pick Preferred Pharmacy</p>
+						<p>Search for prescribed medication online.<br>Be sure to enter your area for more<br>refined results</p>
+					</div>
+				</div>
+
+				<div class="row m-t-10p">
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<img src="assets/img/chat.png" class="mwidth-40">
+						<p class="c-red f-20 mf-14 w-600 m-t-10">Contact a Pharmacist/ Health Professional</p>
+						<p>Call or contact a pharmacist/ healthcare professional<br>or make an appointment.</p>
+					</div>
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<img src="assets/img/pills.png" class="mwidth-40">
+						<p class="c-red f-20 mf-14 w-900 m-t-10">Order for Medicine(s)</p>
+						<p>Place an order from a pharmacy around you</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container p-t-5p p-b-5p">
+			<div class="text-center">
+				<p class="f-18 w-900">Our Success Stories</p>
+				<p class="p-t-10">See what our users are saying about OpenMedic</p>
+			</div>
+
+			<div class="">
+				<div class="carousel slide media-carousel mp-l-0 mp-r-0" id="media">
+			        <div class="carousel-inner">
+			          	<div class="item  active">
+				            <div class="row">
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>          
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>        
+				            </div>
+			          	</div>
+			          	<div class="item">
+				            <div class="row">
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>          
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>        
+				            </div>
+			          	</div>
+			          	<div class="item">
+				            <div class="row">
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>          
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>
+				              	<div class="col-md-4">
+				                	<div class="thumbnail bg-grey99 p-20" href="#">
+				                		<div class="text-center">
+				                			<img src="assets/img/rectangle.png" class="img-circle">
+				                			<p class="c-blue p-t-5">Ifeoma Johnson</p>
+				                			<p>Pharmacist, JohnsonCare</p>
+				                		</div>
+				                		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				                		consequat.</p>
+				                	</div>
+				              	</div>        
+				            </div>
+			          	</div>
+			        </div>
+			        <a data-slide="prev" href="#media" class="left carousel-control mdis-none">‹</a>
+			        <a data-slide="next" href="#media" class="right carousel-control mdis-none">›</a>
+		      	</div>                          
+			</div>
+		</div>
+
+
+		<div class="bg-blue p-b-5p p-t-5p">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xs-6 col-sm-6">
+						<p class="c-white"><a href="">Home</a></p>
+						<p class="c-white"><a href="">About</a></p>
+						<p class="c-white"><a href="">Sign In</a></p>
+						<p class="c-white"><a href="">Sign Up</a></p>
+
+						<p class="p-t-20"><span class="c-red">Open</span><span class="c-white">Medic</span></p>
+					</div>
+					<div class="col-md-6  col-xs-6 col-sm-6">
+						<p class="c-white">Become a Health Professional</p>
+						<p class="c-white"><a href="">Register</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row m-t-20 m-b-20">
+				<div class="col-md-6">
+					<p class="m-t-10">Terms and Conditions</p>
+				</div>
+				<div class="col-md-6 text-center">
+					<div class="social text-center">
+						<ul>
+			                <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+			                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+			                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+			            </ul>
+			        </div>
+				</div>
+			</div>	
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    </script>
+</body>
+	<script type="text/javascript">
+  //   	$(document).ready(function(){
+
+		// $('input[data-toggle="popover"]').popover({
+		//     placement: 'bottom',
+		//     trigger: 'focus'
+		// });
+
+		// })
+		// $(document).ready(function(){
+		//     $('[data-toggle="tooltip"]').tooltip();   
+		// });
+
+
+  //   	$(function () {
+		//   $('[data-toggle="popover"]').popover()
+		// })
+    </script>
+</html>
