@@ -22,7 +22,7 @@ input[type="checkbox"] + label:before {
 }
 input[type="checkbox"]:checked + label:before {
   /*background: #A66429 ;*/
-  background: #d0011b ;
+  background: #BF0603 ;
   color: white;
   content: "\2714";
   /*padding-bottom: 1.5px;*/
@@ -30,6 +30,10 @@ input[type="checkbox"]:checked + label:before {
   border-color: white;
 }
 
+ input[type="checkbox"] + label:before {
+    /*border: 1px solid #333;*/
+    border: 1px solid #BF0603 !important;
+}
 
 /*radio*/
 .radio {

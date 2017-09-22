@@ -38,7 +38,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.html" class="navbar-brand c-red w-900 f-40 mf-20"><span class="c-red">Open</span><span class="c-blue">Medic</span></a>
+					<a href="index.html" class="navbar-brand c-red w-900 f-40 mf-20"><span class="c-redm">Open</span><span class="c-bluem">Medic</span></a>
 				</div>
 		
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,8 +57,8 @@
 						<li class="m-t-10"><a href="index.html">Home</a></li>
 						<li class="m-t-10"><a href="#">About</a></li>
 						<li class="m-t-10"><a href="#">Become Healthcare Professional</a></li>
-						<li class="m-t-10 c-red"><a href="signin.html.html">Sign In</a></li>
-						<li><a href="signup.html"><button type="button" class="btn c-white bd-brandr bg-red">Sign Up</button></a></li>
+						<li class="m-t-10 c-redm"><a href="signin.html">Sign In</a></li>
+						<li><a href="signup.html"><button type="button" class="btn c-white bd-brandr bg-redm">Sign Up</button></a></li>
 						<!-- <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -76,8 +76,8 @@
 	</header>
 
 	<section>
-		<div class="bg-head4 p-t-5p p-b-15p">
-			<div class="container">
+		<div class="bg-head4 p-b-7p"></div>
+			<div class="container m-b-5p">
 				<div class="text-center">
 					<img src="assets/img/pasted1.png" class="width-200 mwidth-100p h-189 mh-auto">
 				</div>
@@ -111,21 +111,48 @@
 									
 								</div>
 								<div class="col-md-6 col-xs-4">
-									<button type="button" class="btn c-white bg-red f-16 width-165 mwidth-100p">Submit</button>
+									<button type="button" class="btn c-white bg-redm f-16 width-165 mwidth-100p" data-toggle="modal" href='#modal-id'>Submit</button>
 								</div>
 							</div>
 						</form>
 						<p class="text-center m-t-5p m-b-5p">OR</p>
-						<p class="f-20 w-900">Sign in via social accounts</p>
-						<a href="#"><p class="text-center h-40 width-100p c-white f-14 p-t-10 m-t-5p bd-4" style="background-color: #00ABE3;"><span><i class="fa fa-lg fa-google-plus"></i></span></p></a>
+						<p class="f-20 mf-18 w-900">Sign in via social accounts</p>
+						<a href="#"><p class="text-center h-40 width-100p c-google f-14 p-t-10 m-t-5p bd-4" style="background-color: #F7F5F5;"><span><img src="assets/img/search (2).svg" class="width-20 h-20"></p></a>
 
-						<a href="#"><p class="text-center h-40 width-100p c-white f-14 p-t-10 m-t-20 bd-4" style="background-color: #4060A5;"><span><i class="fa fa-lg fa-facebook"></i></span></p></a>
+						<a href="#"><p class="text-center h-40 width-100p c-fb f-14 p-t-10 m-t-20 bd-4" style="background-color: #F7F5F5;"><span><i class="fa fa-lg fa-facebook"></i></span></p></a>
 
 					</div>
 					<div class="col-md-4"></div>
 				</div>
 			</div>
+		
+
+
+		<!-- modal -->
+		<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id1'>Trigger modal</a> -->
+		<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header no-bd">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<!-- <h4 class="modal-title">Modal title</h4> -->
+				</div>
+				<div class="modal-body">
+					<div class="text-center f2">
+						<img src="assets/img/happy.svg" class="width-80 h-80">
+						<p class="w-600 m-t-10">Yay!</p>
+						<p class="">Account creation was succesful.</p>
+						<p class="m-t-5p">You will receive a confirmation email from us shortly</p>
+					</div>
+				</div>
+				<div class="modal-footer no-bd">
+					<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button> -->
+				</div>
+			</div>
 		</div>
+	</div>
+
 	</section>
 	
 	
