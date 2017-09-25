@@ -81,7 +81,7 @@
 				<div class="text-center">
 					<img src="assets/img/pasted1.png" class="width-200 mwidth-100p h-189 mh-auto">
 				</div>
-				<p class="f-30 mf-20 w-900 text-center m-t-20">Become an OpenMedic User</p>
+				<p class="f-30 mf-20 w-900 text-center m-t-20 f2">Become an OpenMedic User</p>
 				<p class="text-center m-t-20">(all sections are compulsory)</p>
 				<div class="row m-t-20">
 					<div class="col-md-4"></div>
@@ -92,26 +92,26 @@
 				                <div class="col-xs-6 col-md-6">
 				                	<div class="form-group">
 					                	<label for="">First Name</label>
-					                    <input class="form-control bd-brandr" name="firstname" placeholder="" type="text" />
+					                    <input id='first-name' class="form-control bd-brandr" name="firstname" placeholder="" type="text" />
 				                    </div>
 				                </div>
 				                <div class="col-xs-6 col-md-6">
 				                	<div class="form-group">
 					                	<label for="">Last Name</label>
-					                    <input class="form-control bd-brandr" name="lastname" placeholder="" type="text"  />
+					                    <input id='last-name' class="form-control bd-brandr" name="lastname" placeholder="" type="text" />
 					                </div>
 				                </div>
 				            </div>
 							<div class="form-group">
 								<label for="">email address or phone number</label>
-								<input type="email" class="form-control bd-brandr f-20" id="" placeholder="">
+								<input id='email' type="email" class="form-control bd-brandr f-20" id="" placeholder="">
 							</div>
 							<div class="row p-t-20">
 								<div class="col-md-6 col-xs-8">
 									
 								</div>
 								<div class="col-md-6 col-xs-4">
-									<button type="button" class="btn c-white bg-redm f-16 width-165 mwidth-100p" data-toggle="modal" href='#modal-id'>Submit</button>
+									<button id="show-success" type="button" class="btn c-white bg-redm f-16 width-165 mwidth-100p" data-toggle="modal" href='#modal-id'>Submit</button>
 								</div>
 							</div>
 						</form>
@@ -159,24 +159,36 @@
 	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
 
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
-    </script>
+  
 </body>
 	<script type="text/javascript">
-  //   	$(document).ready(function(){
+		(function(){
+			var validated = false;
+			var submitButton = $('#show-success').attr('disabled', true);
+			var firstName = $('#first-name').bind('keyup', validate);
+			var lastName = $('#last-name').bind('keyup', validate);
+			var email = $('#email').bind('keyup', validate);
 
-		// $('input[data-toggle="popover"]').popover({
-		//     placement: 'bottom',
-		//     trigger: 'focus'
-		// });
+			function validate(){
+				// Check if field 1 is valid
+				field1Check = firstName.val().length > 1;
 
-		// })
-		// $(document).ready(function(){
-		//     $('[data-toggle="tooltip"]').tooltip();   
-		// });
+				// Check if field 2 is valid
+				field2Check = lastName.val().length > 1;
+
+				// Check if field 3 is valid
+				field3Check = email.val().length > 1;
+
+				validated = field1Check & field2Check & field3Check;
+
+				if(validated){
+					submitButton.removeAttr('disabled')
+				} else {
+					submitButton.attr('disabled', true);
+				}
+			};
 
 
-  //   	$(function () {
-		//   $('[data-toggle="popover"]').popover()
-		// })
+		})()
     </script>
 </html>

@@ -8,7 +8,7 @@ html {
 
 body {
 	/*font-family: 'Raleway', sans-serif;*/
-	font-family: 'cera GR Light', sans-serif;
+	font-family: 'Gilroy-Light', sans-serif;
 	font-size: 14px;
 	color: #222222;
 	font-weight: normal;
@@ -596,6 +596,7 @@ select:focus {
 .h-40 { height:40px !important; }
 .h-45 { height:45px !important; }
 .h-50 { height:50px !important; }
+.h-55 { height:55px !important; }
 .h-60 { height:60px !important; }
 .h-65 { height:65px !important; }
 .h-70 { height:70px !important; }

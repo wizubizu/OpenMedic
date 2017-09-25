@@ -94,19 +94,6 @@
 	src: url('../../Gilroy-FREE/Gilroy-Light.otf');
 }
 @font-face{
-	font-family: 'cera GR Medium';
-	src: url('../../cera/cera GR Medium.otf');
-}
-@font-face{
-	font-family: 'cera GR Thin';
-	src: url('../../cera/cera GR Thin.otf');
-}
-@font-face{
-	font-family: 'cera GR Black';
-	src: url('../../cera/cera GR Black.otf');
-}
-
-@font-face{
 	font-family: 'ProximaNova-Regular';
 	src: url('../../proxima/ProximaNova-Regular.otf');
 }
