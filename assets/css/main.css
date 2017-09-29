@@ -208,6 +208,7 @@ select:focus {
 .p-t-0 {padding-top:0 !important;}
 .p-t-3 {padding-top:3px !important;}
 .p-t-5 {padding-top:5px !important;}
+.p-t-6 {padding-top:6px !important;}
 .p-t-7 {padding-top:7px !important;}
 .p-t-8 {padding-top:8px !important;}
 .p-t-9 {padding-top:9px !important;}
@@ -230,6 +231,7 @@ select:focus {
 .p-t-111 {padding-top:111px !important;}
 .p-t-140 {padding-top:140px !important;}
 .p-t-5p {padding-top:5% !important}
+.p-t-6p {padding-top:6% !important}
 .p-t-7p {padding-top:7% !important}
 .p-t-10p {padding-top:10% !important}
 .p-t-15p {padding-top:15% !important}
@@ -287,12 +289,22 @@ select:focus {
 .p-l-58 {padding-left:58px !important;}
 .p-l-60 {padding-left:60px !important;}
 .p-l-72 {padding-left:72px !important;}
+.p-l-79 {padding-left:79px !important;}
+.p-l-96 {padding-left:96px !important;}
+.p-l-113 {padding-left:113px !important;}
+.p-l-118 {padding-left:118px !important;}
+.p-l-130 {padding-left:130px !important;}
 .p-l-135 {padding-left:135px !important;}
 .p-l-150 {padding-left:150px !important;}
+.p-l-155 {padding-left:155px !important;}
+.p-l-173 {padding-left:173px !important;}
+.p-l-192 {padding-left:192px !important;}
+.p-l-194 {padding-left:194px !important;}
 .p-l-250 {padding-left:250px !important;}
 .p-l-260 {padding-left:260px !important;}
 .p-l-20p {padding-left:20% !important;}
 .p-l-24p {padding-left:24% !important;}
+.p-l-30p {padding-left:30% !important;}
 .p-l-40p {padding-left:40% !important;}
 .p-l-45p {padding-left:45% !important;}
 
@@ -323,6 +335,20 @@ select:focus {
 .t-50p{ top:50%;}
 
 /****  Bottom  ****/
+.b-_3 { bottom:-3px !important; }
+.b-_54 { bottom:-54px !important; }
+.b-_55 { bottom:-55px !important; }
+.b-_57 { bottom:-57px !important; }
+.b-_58 { bottom:-58px !important; }
+.b-_59 { bottom:-59px !important; }
+.b-_60 { bottom:-60px !important; }
+.b-_61 { bottom:-61px !important; }
+.b-_72 { bottom:-72px !important; }
+.b-_76 { bottom:-76px !important; }
+.b-_80 { bottom:-80px !important; }
+.b-_90 { bottom:-90px !important; }
+.b-_139 { bottom:-139px !important; }
+.b-_501 { bottom:-501px !important; }
 .b-0 { bottom:0 !important; }
 .b-5 { bottom:5px !important; }
 .b-10 { bottom:10px !important; }
@@ -330,17 +356,31 @@ select:focus {
 .b-30 { bottom:30px !important; }
 .b-40 { bottom:30px !important; }
 .b-50 { bottom:50px !important; }
+.b-60 { bottom:60px !important; }
+.b-90 { bottom:90px !important; }
 .b-59p { bottom:50% !important; }
 
 /****  Left  ****/
+.l-_20 { left:-20px !important; }
 .l-0 { left:0 !important; }
 .l-5 { left:5px !important; }
 .l-10 { left:10px !important; }
 .l-14 { left:14px !important; }
 .l-15 { left:15px !important; }
+.l-20 { left:20px !important; }
 .l-32 { left:32px !important; }
+.l-43 { left:43px !important; }
+.l-45 { left:45px !important; }
+.l-76 { left:76px !important; }
+.l-90 { left:90px !important; }
 .l-100 { left:100px !important; }
+.l-100 { left:100px !important; }
+.l-110 { left:110px !important; }
+.l-160 { left:160px !important; }
 .l-215 { left:215px !important; }
+.l-35p { left:35% !important; }
+.l-40p { left:40% !important; }
+.l-43p { left:43% !important; }
 
 /****  Right  ****/
 .r-0 { right:0 !important; }
@@ -410,24 +450,29 @@ select:focus {
 .width-30 {width:30px !important;}
 .width-35 {width:35px !important;}
 .width-40 {width:40px !important;}
+.width-47 {width:47px !important;}
 .width-50 {width:50px !important;}
 .width-60 {width:60px !important;}
+.width-65 {width:65px !important;}
 .width-70 {width:70px !important;}
 .width-80 {width:80px !important;}
 .width-90 {width:90px !important;}
 .width-100 {width:100px !important;}
 .width-110 {width:110px !important;}
+.width-114 {width:114px !important;}
 .width-120 {width:120px !important;}
 .width-150 {width:150px !important;}
 .width-154 {width:154px !important;}
 .width-160 {width:160px !important;}
 .width-170 {width:170px !important;}
+.width-178 {width:178px !important;}
 .width-180 {width:180px !important;}
 .width-190 {width:190px !important;}
 .width-200 {width:200px !important;}
 .width-210 {width:210px !important;}
 .width-215 {width:215px !important;}
 .width-225 {width:225px !important;}
+.width-230 {width:230px !important;}
 .width-265 {width:265px !important;}
 .width-280 {width:280px !important;}
 .width-300 {width:300px !important;}
@@ -606,6 +651,7 @@ select:focus {
 .h-90 { height:90px !important; }
 .h-100 { height:100px !important; }
 .h-105 { height:105px !important; }
+.h-109 { height:109px !important; }
 .h-125 { height:125px !important; }
 .h-250 { height:250px !important; }
 .h-200 { height:200px !important; }
