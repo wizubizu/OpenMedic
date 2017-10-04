@@ -13,9 +13,12 @@ body {
 	color: #222222;
 	font-weight: normal;
 	overflow-x: hidden;
-	line-height: 25px;
+	line-height: 20px;
 }
  
+.l-h{line-height: 40px;}
+
+
 a,
 a:active,
 a:hover,
@@ -279,6 +282,7 @@ select:focus {
 .p-l-24 {padding-left:24px !important;}
 .p-l-30 {padding-left:30px !important;}
 .p-l-35 {padding-left:35px !important;}
+.p-l-38 {padding-left:38px !important;}
 .p-l-39 {padding-left:39px !important;}
 .p-l-40 {padding-left:40px !important;}
 .p-l-45 {padding-left:45px !important;}
@@ -297,6 +301,7 @@ select:focus {
 .p-l-135 {padding-left:135px !important;}
 .p-l-150 {padding-left:150px !important;}
 .p-l-155 {padding-left:155px !important;}
+.p-l-160 {padding-left:160px !important;}
 .p-l-173 {padding-left:173px !important;}
 .p-l-192 {padding-left:192px !important;}
 .p-l-194 {padding-left:194px !important;}
@@ -376,9 +381,11 @@ select:focus {
 .l-100 { left:100px !important; }
 .l-100 { left:100px !important; }
 .l-110 { left:110px !important; }
+.l-150 { left:150px !important; }
 .l-160 { left:160px !important; }
 .l-215 { left:215px !important; }
 .l-35p { left:35% !important; }
+.l-38p { left:38% !important; }
 .l-40p { left:40% !important; }
 .l-43p { left:43% !important; }
 
@@ -454,6 +461,7 @@ select:focus {
 .width-50 {width:50px !important;}
 .width-60 {width:60px !important;}
 .width-65 {width:65px !important;}
+.width-66 {width:66px !important;}
 .width-70 {width:70px !important;}
 .width-80 {width:80px !important;}
 .width-90 {width:90px !important;}
@@ -464,6 +472,7 @@ select:focus {
 .width-150 {width:150px !important;}
 .width-154 {width:154px !important;}
 .width-160 {width:160px !important;}
+.width-165 {width:165px !important;}
 .width-170 {width:170px !important;}
 .width-178 {width:178px !important;}
 .width-180 {width:180px !important;}
@@ -483,8 +492,11 @@ select:focus {
 .width-400 {width:400px !important;}
 .width-494 {width:494px !important;}
 .width-500 {width:500px !important;}
+.width-540 {width:540px !important;}
+.width-570 {width:570px !important;}
 .width-600 {width:600px !important;}
 .width-650 {width:650px !important;}
+.width-665 {width:665px !important;}
 .width-714 {width:714px !important;}
 .width-759 {width:759px !important;}
 .width-800 {width:800px !important;}
